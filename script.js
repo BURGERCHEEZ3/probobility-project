@@ -7,16 +7,20 @@ function guess() {
 }
 
 function handleButtonClick() {
-    let result = guess();
-    alert("Your random number is: " + result);
 
+    let result = guess();
+    let userInput = prompt("Type your guess:");
+    alert("Your random number is: " + result);
+    if (result) {
+        (userInput == result) {
+        println("Your guess is correct!");
+    else{
+        println("Your guess is incorrect. Try again!");
+    }    
+
+    }
+ }
 }
 
 let myButton = document.getElementById("randomButton");
 myButton.addEventListener("click", handleButtonClick);
-
-let userInput = prompt("Type your guess:");
-if (userInput) = wholeNumber
-println("Your guess is correct!");
-else
-println("Your guess is incorrect. Try again!");
