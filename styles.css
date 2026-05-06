@@ -1,3 +1,14 @@
 body {
    background-color: green; 
+
+} 
+
+
+#randomButton {
+    font-size:40px;
+    padding: 25px 50px;
+    display: block;
+    margin: 20px auto;
 }
+
+
