@@ -3,12 +3,40 @@ body {
 
 } 
 
-
-#randomButton {
-    font-size:40px;
-    padding: 25px 50px;
-    display: block;
-    margin: 20px auto;
+#button-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
 }
 
 
+#button-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+}
+
+#top-button {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+}
+
+#message {
+    font-size: 50px;
+}
+
+#restart-button {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+}
